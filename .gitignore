@@ -1,0 +1,12 @@
+
+# Testcase
+**/test
+**/tests
+*.testcases
+*.testcase
+
+# Executables
+**/bin
+*.exe
+*.out
+*.app
