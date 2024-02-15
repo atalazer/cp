@@ -1,0 +1,16 @@
+haha(d, n)
+|->(d.lenght == n) -> cout << d;
+|->(d.lenght != n) -> (i = 1 .. n) haha(d+i, n)
+
+
+haha("", 2) = (i = 1 .. 2) haha("1", 2) | haha("2", 2)
+haha("1", 2) = (i = 1 .. 2) haha("11", 2) | haha("12", 2)
+haha("2", 2) = (i = 1 .. 2) haha("21", 2) | haha("22", 2)
+
+OUTPUT:
+11
+12
+21
+22
+ANSWER: 21 (Baris ketiga)
+

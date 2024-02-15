@@ -1,0 +1,12 @@
+
+
+bucin(73) = bucin(36) + "1"
+bucin(36) = bucin(18) + "0"
+bucin(18) = bucin(9) + "1"
+bucin(9) = bucin(4) + "1"
+bucin(4) = bucin(2) + "0"
+bucin(2) = bucin(1) + "1"
+bucin(1) = bucin(0) + "1"
+
+ans = 1101101
+
