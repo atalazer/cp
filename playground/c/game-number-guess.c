@@ -45,7 +45,7 @@ int main() {
 
     printResult(answer, count, message);
 
-    printf("\nWanna play again? (Y/N) : ");
+    printf("\nWanna play again? (Y/n) : ");
     scanf("%c", &response);
     response = toupper(response);
   } while (response == 'Y');
