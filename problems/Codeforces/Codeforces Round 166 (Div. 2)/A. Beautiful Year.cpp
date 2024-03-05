@@ -9,11 +9,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long
-
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(nullptr);
 
-  //
+  int a = 0, b = 0, c = 0, d = 0, y;
+  cin >> y;
+
+  while((a == b) || (a == c) || (a == d) || (b == c) || (b == d) || (c == d)){
+    y++;
+    a = (y / 1000) % 10;
+    b = (y / 100) % 10;
+    c = (y / 10) % 10;
+    d = (y / 1) % 10;
+  }
+
+  cout << y << '\n';
 }
